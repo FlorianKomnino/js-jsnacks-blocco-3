@@ -4,7 +4,11 @@ console.log('Hello World!');
 
 firstArrayExample = ['1', '2', '3','1', '2', '3','1', '2', '3','1', '2', '3','1', '2', '3','1', '2', '3'];
 
-secondArrayExample = ['4', '5', '6','4', '5', '6','4', '5', '6','4', '5', '6',];
+secondArrayExample = ['4', '5', '6'];
+
+
+console.log(firstArrayExample);
+console.log(secondArrayExample);
 
 while (firstArrayExample.length != secondArrayExample.length) {
     if (firstArrayExample.length < secondArrayExample.length) {
