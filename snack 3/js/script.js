@@ -6,36 +6,44 @@ firstArrayExample = ['1', '2', '3','1', '2', '3','1', '2', '3','1', '2', '3','1'
 
 secondArrayExample = ['4', '5', '6','4', '5', '6','4', '5', '6','4', '5', '6',];
 
-let emptyBox = '';
-
-minLength = 0;
-
-maxLength = 0;
-
-if (firstArrayExample.length < secondArrayExample.length){
-    minLength = firstArrayExample.length;
-} else {
-    minLength = secondArrayExample.length;
-}
-console.log(minLength);
-
-if (firstArrayExample.length > secondArrayExample.length){
-    maxLength = firstArrayExample.length;
-} else {
-    maxLength = secondArrayExample.length;
-}
-console.log(maxLength);
-
-let indexNumber = minLength;
-
-while (indexNumber < maxLength) {
+while (firstArrayExample.length != secondArrayExample.length) {
     if (firstArrayExample.length < secondArrayExample.length) {
-        firstArrayExample.push(emptyBox);
-    } else if (firstArrayExample.length > secondArrayExample.length){
-        secondArrayExample.push(emptyBox);
+        firstArrayExample.push(0);
+    } else {
+        secondArrayExample.push(0);
     }
-    indexNumber++;
 }
 
 console.log(firstArrayExample);
 console.log(secondArrayExample);
+
+// let emptyBox = '';
+
+// minLength = 0;
+
+// maxLength = 0;
+
+// if (firstArrayExample.length < secondArrayExample.length){
+//     minLength = firstArrayExample.length;
+// } else {
+//     minLength = secondArrayExample.length;
+// }
+// console.log(minLength);
+
+// if (firstArrayExample.length > secondArrayExample.length){
+//     maxLength = firstArrayExample.length;
+// } else {
+//     maxLength = secondArrayExample.length;
+// }
+// console.log(maxLength);
+
+// let indexNumber = minLength;
+
+// while (indexNumber < maxLength) {
+//     if (firstArrayExample.length < secondArrayExample.length) {
+//         firstArrayExample.push(emptyBox);
+//     } else if (firstArrayExample.length > secondArrayExample.length){
+//         secondArrayExample.push(emptyBox);
+//     }
+//     indexNumber++;
+// }
