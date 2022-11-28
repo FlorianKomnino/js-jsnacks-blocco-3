@@ -5,5 +5,5 @@ console.log('Hello World!');
 let requestedNumber;
 
 do { 
-    requestedNumber = parseInt(prompt('Inserisci il numero corretto'));
+    requestedNumber = parseInt(prompt('Inserisci un numero compreso tra 1 e 10'));
 } while ((requestedNumber > 10) || (requestedNumber < 1)) 
