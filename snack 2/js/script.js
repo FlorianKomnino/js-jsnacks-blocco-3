@@ -7,7 +7,7 @@ let numbersArray = [];
 let numbersSum = 0;
 
 do {
-    requestedNumber = parseInt(prompt('Inserisci il numero corretto'));
+    let requestedNumber = parseInt(prompt('Inserisci il numero corretto'));
     numbersArray.push(requestedNumber);
     numbersSum += requestedNumber;
     console.log(numbersSum);
