@@ -29,5 +29,13 @@ console.log(maxLength);
 let indexNumber = minLength;
 
 while (indexNumber < maxLength) {
-    
+    if (firstArrayExample.length < secondArrayExample.length) {
+        firstArrayExample.push(emptyBox);
+    } else if (firstArrayExample.length > secondArrayExample.length){
+        firstArrayExample.push(emptyBox);
+    }
+    indexNumber++;
 }
+
+console.log(firstArrayExample);
+console.log(secondArrayExample);
