@@ -6,7 +6,7 @@ console.log('Hello World!');
  *
  */
 
-let myExampleArray = [1, 2, 'uno', 'patate', 10]
+let myExampleArray = [1, 2, '1', 'patate', 10]
 
 console.log(Number.isNaN(myExampleArray[3]))
 
