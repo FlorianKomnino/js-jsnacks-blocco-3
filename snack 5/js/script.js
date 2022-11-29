@@ -5,7 +5,7 @@ console.log('Hello World!');
  */
 
 function randomNumberBetweenLimits (limitMin, limitMax) {
-    const generatedNumber = Math.floor(Math.random() * (limitMax - limitMin) + limitMin)
+    const generatedNumber = Math.floor(Math.random() * (limitMax - limitMin + 1) + limitMin)
 
     return generatedNumber;
 }
