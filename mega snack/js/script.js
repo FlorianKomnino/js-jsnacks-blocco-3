@@ -23,17 +23,17 @@ const array = [1,33,55,64,33,22,10,44];
 
 function createElementP(contentOfP) {
     const createdElement = document.createElement('p');
-    createdElement.innerHTML = contentOfP;
+    createdElement.innerText = contentOfP;
     return createdElement
 }
 
 console.log(createElementP('questa é una prova'));
 
-const oddNumbers = document.getElementById('oddNumbers');
-const evenNumbers = document.getElementById('evenNumbers');
+let oddNumbers = document.getElementById('oddNumbers');
+let evenNumbers = document.getElementById('evenNumbers');
 
+console.log(oddNumbers);
 
 for ( let i = 0 ; i < array.length ; i++) {
-    (array[i] % 2 == 0) ? 
+    ( array[i] % 2 == 0 ) ? oddNumbers.append(createElementP(array[i])) : evenNumbers.append(createElementP(array[i]));
 }
-
