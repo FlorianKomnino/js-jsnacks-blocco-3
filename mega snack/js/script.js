@@ -29,10 +29,11 @@ function createElementP(contentOfP) {
 
 console.log(createElementP('questa é una prova'));
 
-const oddsElement = document.getElementById('oddNumbers');
-const evensElement = document.getElementById('evenNumbers');
+const oddNumbers = document.getElementById('oddNumbers');
+const evenNumbers = document.getElementById('evenNumbers');
 
 
 for ( let i = 0 ; i < array.length ; i++) {
-    (array[i] % 2 == 0) ?  
+    (array[i] % 2 == 0) ? 
 }
+
