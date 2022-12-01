@@ -17,3 +17,9 @@ function randomNumberBetweenLimits (minValue, maxValue) {
     return generatedNumber;
 }
 
+const randomNumbersWanted = 10;
+
+for ( i = 0 ; i == randomNumbersWanted ; i++) {
+    let numberToCheck = randomNumberBetweenLimits(1, randomNumbersWanted);
+    if ()
+}
