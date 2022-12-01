@@ -11,6 +11,9 @@ const startingList = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
 
 let generatedTenRandomNumbers = [];
 
-for ( i = 0 ; i == 10 ; i++){
-    
+function randomNumberBetweenLimits (minValue, maxValue) {
+    const generatedNumber = Math.floor(Math.random() * (maxValue - minValue + 1) + minValue)
+
+    return generatedNumber;
 }
+
