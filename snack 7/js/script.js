@@ -19,6 +19,16 @@ function randomNumberBetweenLimits (minValue, maxValue) {
 
 const randomNumbersWanted = 10;
 
+function copyChecker (value1, value2) {
+    let checker;
+    if (value1 == value2) {
+        checker = true;
+    } else {
+        checker = false;
+    }
+    return checker;
+}
+
 for ( i = 0 ; i == randomNumbersWanted ; i++) {
     let numberToCheck = randomNumberBetweenLimits(1, randomNumbersWanted);
     if ()
